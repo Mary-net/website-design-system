@@ -1,0 +1,125 @@
+html {
+    background-color: #d98880;
+    font-size: 16px;
+    font-family: montserrat;
+    font-weight: 200;
+  }
+  header {
+    text-align: center;
+    color: white;
+    background-color: #2c3e50;
+    padding: 5% 10%;
+    margin: 5%;
+    border: 2px solid #f7dc6f;
+  }
+  h1, h3 {
+    font-weight: 200;
+  }
+  h1 {
+    text-transform: uppercase;
+  }
+  nav ul { 
+    margin: auto 30%;
+  }
+  nav a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-size: 1.1rem;
+  }
+  nav li a:hover {
+    color: #f7dc6f;
+  }
+  nav li {
+    list-style-type:none;
+    display: inline;
+    font-weight: 300;
+    margin: auto 4%;
+  }
+  h2 {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10%;
+  }
+  .c1, .c2, .c3, .c4, .c5 {
+    margin: 2% 5%;
+  }
+  p {
+    font-family: "courier prime";
+  }
+  .c1 {
+    background: #d98880;
+    border: 1px solid white;
+    padding: 3%;
+  }
+  .c2 {
+    background: #2c3e50;
+    border: 1px solid white;
+    padding: 3%;
+  }
+  .c3 {
+    background: white;
+    border: 1px solid #2c3e50;
+    padding: 3%;
+  }
+  .c4 {
+    background: #45b39d;
+    border: 1px solid white;
+    padding: 3%;
+  }
+  .c5 {
+    background: #f7dc6f;
+    border: 1px solid white;
+    padding: 3%;
+  }
+  .button {
+    background-color: white;
+    align-items: center;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    list-style: none;
+    overflow: hidden;
+    padding: 1%;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+  }
+  .button:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+  .f1 p {
+    font-family: montserrat !important;
+  }
+  .f2 {
+    font-family: courier-new;
+  }
+  .f1, .f2 {
+    border: 1px solid black;
+    padding: 3%;
+    margin: 2% 5%;
+  }
+  .ff {
+    background-color: #f7dc6f;
+  }
+  .layout {
+    margin: 5%;
+  }
+  .layout a {
+    text-decoration: none;
+    color: #f7dc6f;
+  }
+  .layout a:hover{
+    color: #2c3e50;
+  }
+  footer p {
+    font-family: montserrat;
+    margin: auto 40%;
+    border: 1px solid #f7dc6f;
+    display: inline-block;
+  }
